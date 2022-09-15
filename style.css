@@ -1,0 +1,12 @@
+.btn-success:hover{
+    background-color: aqua;
+}
+@keyframes cs{
+    from{box-shadow:1px 1px 35px rgb(250, 4, 123);}
+    to{box-shadow:1px 1px 35px rgb(0, 0, 0);}
+}
+canvas{
+    animation-name: cs;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
